@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://zhouyongqiang.github.io</id>
+    <title>Gridea</title>
+    <updated>2023-12-14T03:30:52.660Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="http://zhouyongqiang.github.io"/>
+    <link rel="self" href="http://zhouyongqiang.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>http://zhouyongqiang.github.io/images/avatar.png</logo>
+    <icon>http://zhouyongqiang.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[神笔马良]]></title>
+        <id>http://zhouyongqiang.github.io/post/shen-bi-ma-liang/</id>
+        <link href="http://zhouyongqiang.github.io/post/shen-bi-ma-liang/">
+        </link>
+        <updated>2023-12-14T03:29:10.000Z</updated>
+        <content type="html"><![CDATA[<p>代码仓库：<br>
+https://git-cc.nie.netease.com/cc-client-middle-platform/ccmp_flutter_magicpen<br>
+https://git-cc.nie.netease.com/cc-client-middle-platform/ccmp_magicpen_server</p>
+<p>开发环境：<br>
+IDE： VSCode + Flutter插件</p>
+<p>学习资料：<br>
+https://flutter.cn/docs<br>
+注意如果不用安卓调试，则不需要按照文档的指示进行设置安卓的环境，如果有设置flutter config则通过flutter config --android-studio-dir=将本底设置的环境进行清除，否则将在调试的时候打不开对应的devices</p>
+<p>神笔马良内网后台数据库连接：<br>
+内网：<br>
+mongodb://root@10.215.40.148:27017/?authSource=magicpen<br>
+mongodb://root:ccmpmongodb@10.215.40.148:27017/?authSource=magicpen<br>
+外网：<br>
+mongodb://ccmp:ccmpmongodb@10.91.2.240:30004,10.91.2.241:30001/?authSource=ccmpmongodb<br>
+1、先通过ddos防护服务申请以下ip的网段权限：https://security.nie.netease.com/ssl/index.php/Vpn/index/savpn<br>
+10.91.2.240<br>
+7.32.193.35<br>
+10.204.56.48<br>
+2、开savpn用于访问idc内网（小易助手：https://sa.nie.netease.com/docs/vpn）<br>
+3、打开mongodb compass输入地址连接即可</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>http://zhouyongqiang.github.io/post/hello-gridea/</id>
+        <link href="http://zhouyongqiang.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
